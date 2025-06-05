@@ -1,0 +1,85 @@
+.custom-toast-popup,
+.custom-confirm-popup {
+  font-family: "PT Sans Caption", sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(53, 46, 40, 0.1);
+}
+
+.custom-toast-popup {
+  padding: 12px 20px;
+}
+
+.custom-toast-popup .swal2-title {
+  font-size: 16px;
+  color: #352e28;
+  margin: 0;
+}
+
+.custom-toast-popup .swal2-html-container {
+  font-size: 14px;
+  margin: 8px 0 0;
+  color: rgba(53, 46, 40, 0.8);
+}
+
+.custom-confirm-popup {
+  padding: 20px;
+}
+
+.custom-confirm-popup .swal2-title {
+  font-family: "Righteous", cursive;
+  font-size: 24px;
+  color: #352e28;
+}
+
+.custom-validation-container {
+  margin-top: 1.5rem;
+}
+
+.validation-content {
+  text-align: left;
+  color: #352e28;
+}
+
+.validation-message {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.validation-rules {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.validation-rules li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.validation-rules li:last-child {
+  margin-bottom: 0;
+}
+
+.validation-rules i {
+  color: #eb1d36;
+  margin-right: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.swal2-timer-progress-bar {
+  background: #fec260;
+}
+
+@media (max-width: 480px) {
+  .custom-toast-popup {
+    width: 90%;
+    margin: 16px;
+  }
+  
+  .validation-rules li {
+    font-size: 0.9rem;
+  }
+}
