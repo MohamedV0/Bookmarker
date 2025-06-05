@@ -69,12 +69,12 @@ Bookmark Manager/
 │   └── sweetalert-config.js
 ├── webfonts/ (Font Awesome icon fonts)
 ├── docs/
+│   ├── project-requirements.md
 │   └── ui-screenshots/
 │       └── Hero.png
 ├── index.html
 ├── README.md
-├── .gitignore
-└── project-requirements.md
+└── .gitignore
 ```
 
 ## 🚀 How to Use
