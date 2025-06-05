@@ -197,14 +197,15 @@ const UI = {
         <span class="category-badge ${categoryClass}">${category}</span>
       </td>              
       <td>
-        <button class="btn btn-visit" data-index="${index}">
-          <i class="fa-solid fa-eye pe-2"></i>Visit
+        <button class="btn btn-sm btn-visit d-flex align-items-center justify-content-center mx-auto" data-index="${index}" aria-label="Visit ${bookmark.siteName}">
+          <i class="fa-solid fa-eye" aria-hidden="true"></i>
+          <span class="d-none d-sm-inline-block ms-sm-2">Visit</span>
         </button>
       </td>
       <td>
-        <button class="btn btn-delete pe-2" data-index="${index}">
-          <i class="fa-solid fa-trash-can"></i>
-          Delete
+        <button class="btn btn-sm btn-delete d-flex align-items-center justify-content-center mx-auto" data-index="${index}" aria-label="Delete ${bookmark.siteName}">
+          <i class="fa-solid fa-trash-can" aria-hidden="true"></i>
+          <span class="d-none d-sm-inline-block ms-sm-2">Delete</span>
         </button>
       </td>
     `;

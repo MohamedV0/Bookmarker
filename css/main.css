@@ -66,6 +66,9 @@ main h1:hover::before {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #d30820;
   --bs-btn-hover-border-color: #ba081d;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.375rem;
+  min-width: 44px;
 }
 
 .btn-submit {
@@ -84,6 +87,30 @@ main h1:hover::before {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #8a9e23;
   --bs-btn-hover-border-color: #6e8018;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.375rem;
+  min-width: 44px;
+}
+
+@media (max-width: 575.98px) {
+  .btn-delete,
+  .btn-visit {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.5rem;
+    height: 44px;
+  }
+  
+  .btn-delete i,
+  .btn-visit i {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-delete,
+  .btn-visit {
+    min-width: 90px;
+  }
 }
 
 table {
